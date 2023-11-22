@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding-top: 90px;
+}
+
+.navbar {
+    background-color: #6F6AF7;
+    display: flex;
+    width: 100vw;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.list {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+}
+
+li {
+    display: inline-block;
+    margin-right: 40px;
+    color: white;
+}
+
+.logo {
+    color: white;
+    font-family: "Delicious Unicase", cursive;
+    font-size: 44px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.search-bar {
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+
+.hamburger-menu {
+    width: 40px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.top {
+    margin-top: 70px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: 150px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.top-right-textbox {
+    width: 87%;
+    height: 90%;
+    border: none;
+    border-radius: 15px;
+    background-color: #E5D8FF;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 10%;
+    resize: none;
+}
+.top-right-textbox::placeholder{
+    color:#6F7373;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.top-left {
+    margin-right: 30px;
+}
+
+.top-left-image {
+    width: 100%;
+    object-fit: contain;
+    box-shadow: rgb(94, 91, 91) 0px 5px 20px;
+    margin: 0;
+    padding: 0;
+    border-radius: 23px;
+}
+
+.social-media {
+    float: right;
+    position: sticky;
+    top: 110px;
+    margin-top: 70px;
+    z-index: 100;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.detail-box {
+    width: 20%;
+    margin-top: 15px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    box-shadow: rgb(94, 91, 91) 0px 5px 20px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 17px;
+    height: 72px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 90vw;
+    height: 75vh;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 30px;
+    background-color: #483EFF;
+    border-radius: 10px;
+}
+
+.button-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.toggle-btn {
+    width: 170px;
+    height: 100px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-right: auto;
+    margin-left: 50px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.details-area {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    overflow: auto;
+    position: relative;
+}
+
+.chatbot {
+    width: 7%;
+    height: 100px;
+    padding: 0;
+    right: 60px;
+    position: fixed;
+    z-index: 1;
+    bottom: -11px;
+}
+
+.details-heading {
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 0.107;
+    color: #04285A;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.details-text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.100rem;
+    color: #04285A;
+    margin-left: 70px;
+}
+
+.next-btn {
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    background-color: #000000;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
